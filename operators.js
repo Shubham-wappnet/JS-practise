@@ -33,3 +33,17 @@ console.log(b>>a);
 let txt1="Such a nice";
 txt1+="morning";
 console.log(txt1);
+
+function Car(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+  const auto = new Car('Honda', 'Accord', 1998);
+  
+  console.log(auto instanceof Car);
+  console.log(auto instanceof Object);
+
+  const vehicle=('suzuki','M7',2000);
+  console.log(vehicle instanceof Car);
+  
