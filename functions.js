@@ -10,6 +10,7 @@ var myexp=function(x,y){
 }
 console.log(myexp(5,8));
 
+///////
 function manufacture(ele){
     ele.model="M2x";        // excess object using function
     ele[1]='g';             // excess array using function
@@ -29,6 +30,7 @@ function manufacture(ele){
  manufacture(arr);
  console.log(arr[1]);
 
+/////
  function Map(f,a){
     const arr1=new Array(a.length);
     for(let i=0;i<a.length;i++){
@@ -42,6 +44,8 @@ function manufacture(ele){
 const no=['0','1','2','3'];
 console.log(Map(square,no));
 
+
+/////
 console.log(cube(3));
 function cube(n){
     return n*n*n;
@@ -51,6 +55,8 @@ const exp=function(){
     return n*n*n;
 }
 
+
+////
 const num1=10;
 const num2=20;
 const name="abc";
@@ -78,6 +84,7 @@ function f3(n){
 }
 f3(4);
 
+/////
 function outside(){       //nested function with name conflict
     const x=4;
     function inside(x){
