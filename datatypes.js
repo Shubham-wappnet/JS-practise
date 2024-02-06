@@ -1,4 +1,4 @@
-/*let x="software trainee";
+let x="software trainee";
 let y=10;
 //let y="10";
 let a=x+y;
@@ -18,10 +18,10 @@ if(b==c){
 }
 else{
     console.log("different");
-}*/
+}
 
 const cars=["SUV","THAR","BMW"];
-// console.log(typeof(cars));
+ console.log(typeof(cars));
 cars.push("safari");
 cars.shift();
 const newcar=cars.indexOf("THAR");
