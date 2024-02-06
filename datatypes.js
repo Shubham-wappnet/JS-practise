@@ -21,7 +21,7 @@ else{
 }*/
 
 const cars=["SUV","THAR","BMW"];
-console.log(typeof(cars));
+// console.log(typeof(cars));
 cars.push("safari");
 cars.shift();
 const newcar=cars.indexOf("THAR");
