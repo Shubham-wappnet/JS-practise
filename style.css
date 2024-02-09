@@ -15,8 +15,13 @@ button{
     font-weight: 300;
     padding-left: 8px;
 }
-#bt2{
+#btn2{
     margin:10px;
     border-radius: 20%;
     background-color: cadetblue; 
+}
+#btn3{
+    margin:10px;
+    border-radius: 15px;
+    background-color: beige;
 }

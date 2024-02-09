@@ -41,3 +41,21 @@ btn.addEventListener("click", () => {
   const Col1 = `rgb(${random(255)} ${random(255)} ${random(255)})`;
   document.body.style.backgroundColor = Col1;
 });
+
+////
+const abutton=document.getElementById("open text field");
+
+abutton.addEventListener("click",function(){
+  document.getElementById("text-field").style.display="block";
+  document.getElementById("submit-button").style.display="block";
+});
+document.getElementById("submit-button").addEventListener("click",function(){
+  var userInput=document.getElementById("text-field").value;
+  if(userInput.trim()!=""){
+    alert(" you entered "  +userInput);
+  }
+  else{
+    alert("can't enter");
+  }
+})
+
