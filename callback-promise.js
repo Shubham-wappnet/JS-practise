@@ -1,47 +1,47 @@
-// const funA=()=>{
-//     setTimeout(function(){
-//         console.log("Welcome A")
-//       funC(); 
-//     },2000)
+const funA=()=>{
+    setTimeout(function(){
+        console.log("Welcome A")
+      funC(); 
+    },2000)
     
-// }
-// const funB=()=>{
-//     console.log("Welcome B")
-// }
-// const funC=()=>{
-//     console.log("WElcome C")
-// }
-// funA();
-// funB();
+}
+const funB=()=>{
+    console.log("Welcome B")
+}
+const funC=()=>{
+    console.log("WElcome C")
+}
+funA();
+funB();
 
-/////
+///
 
-// const friend1=(friend,rightfriend)=>{            //another function is passed as a argument -callback
-//     console.log(`friend1 is talking with ${friend}`)
-//     rightfriend();
-// }
-// const friend2=()=>{
-//     console.log("friend2 is busy")
-// }
-// friend1("Mihir",friend2)
+const friend1=(friend,rightfriend)=>{            //another function is passed as a argument -callback
+    console.log(`friend1 is talking with ${friend}`)
+    rightfriend();
+}
+const friend2=()=>{
+    console.log("friend2 is busy")
+}
+friend1("Mihir",friend2)
 
 
-/////
-// function fetchdata(running){
-//     setTimeout(()=> {
-//        const data={id:1,
-//                    name:"John",
-//                    year:2003};
-//     running(data) 
+///
+function fetchdata(running){
+    setTimeout(()=> {
+       const data={id:1,
+                   name:"John",
+                   year:2003};
+    running(data) 
                   
-//     },4000)
+    },4000)
    
-// }
-// function process(data){                 //pass data of function fetchdata into process function
-//     console.log("data processed" ,data)
-// }
-// fetchdata(process)
-// process()
+}
+function process(data){                 //pass data of function fetchdata into process function
+    console.log("data processed" ,data)
+}
+fetchdata(process)
+process()
 
 
 ////

@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
-    <h1 id="demo2">MS-Edge</h1>
-    <button id="btn1" >Try now</button>
-    <p id="demo"></p>
+        <h1 id="demo2">MS-Edge</h1>
+        <button id="btn1">Try now</button>
+        <p id="demo"></p>
     </div>
 
-     <div id="rect">
-       <p id="demo3">Show current year</p>
+    <div id="rect">
+        <p id="demo3">Show current year</p>
     </div>
+    <button id="btn2">Change color</button>
+
     <div>
-        <button id="btn2">Change color</button>
-    </div>
-    <div>
-        <button id="open text field" >open text field</button>
+        <button id="open text field">open text field</button>
         <input type="text" id="text-field" placeholder="Enter text">
         <button id="submit-button">submit</button>
     </div>
+    <div id="rect2">
+        <h2 id="head1">Registration Form</h2>
+        <form id="frm1">
+            First Name :<input type="text" id="fname" placeholder="Fname" required="true"><br>
+            Last Name :<input type="text" id="lname" placeholder="Lname" required="true"><br>
+            Password :<input type="password" id="passwd" placeholder="***">
+            <input type="submit" id="sub1" value="Submit">
+        </form>
+    </div>
+    <img src="john.png" id="pic1" alt="john" height="120" width="150">
 
-    <script src="events.js"></script>
+
+    <script src="dom-events.js"></script>
 </body>
+
 </html>

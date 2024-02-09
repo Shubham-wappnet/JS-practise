@@ -59,3 +59,15 @@ document.getElementById("submit-button").addEventListener("click",function(){
   }
 })
 
+////
+const submission=document.getElementById("sub1")
+ const head=document.getElementById("head1")
+ head1.innerHTML="Login form"
+submission.addEventListener("click",function(){
+  alert("Successfully submited")
+})
+
+setTimeout(() => {
+  document.getElementById("pic1").src = "man.png";
+}, 1000);
+

@@ -25,3 +25,17 @@ button{
     border-radius: 15px;
     background-color: beige;
 }
+#lname{
+    margin-top: 10px;
+}
+#passwd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#rect2{
+    width: 220px; 
+    height: 240px; 
+    background-color: aliceblue; 
+    border: 2px solid black; 
+    margin-top:20px;
+}
