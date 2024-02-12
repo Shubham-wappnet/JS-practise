@@ -32,5 +32,16 @@ const myobj=arr3.reduce((acc,val,index)=>{   //covert array into object
      return acc;
 },{})
 console.log(myobj)
-const arr4=[...new Set(arr1)];
+const arr4=[...new Set(arr1)];   //remove duplicate
 const arr5=arr1.sort();
+
+let arr6=[1,2,3,4,5];
+let arr7=arr1.map((curele)=>{
+    return curele*2;
+    
+}).filter((curele)=>{
+    return curele<10;
+}).reduce((accu,curele)=>{
+    return accu=accu+curele;
+})
+console.log(arr7);

@@ -43,21 +43,21 @@ btn.addEventListener("click", () => {
 });
 
 ////
-const abutton=document.getElementById("open text field");
+// const abutton=document.getElementById("open text field");
 
-abutton.addEventListener("click",function(){
-  document.getElementById("text-field").style.display="block";
-  document.getElementById("submit-button").style.display="block";
-});
-document.getElementById("submit-button").addEventListener("click",function(){
-  var userInput=document.getElementById("text-field").value;
-  if(userInput.trim()!=""){
-    alert(" you entered "  +userInput);
-  }
-  else{
-    alert("can't enter");
-  }
-})
+// abutton.addEventListener("click",function(){
+//   document.getElementById("text-field").style.display="block";
+//   document.getElementById("submit-button").style.display="block";
+// });
+// document.getElementById("submit-button").addEventListener("click",function(){
+//   var userInput=document.getElementById("text-field").value;
+//   if(userInput.trim()!=""){
+//     alert(" you entered "  +userInput);
+//   }
+//   else{
+//     alert("can't enter");
+//   }
+// })
 
 ////
 const submission=document.getElementById("sub1")
@@ -69,5 +69,5 @@ submission.addEventListener("click",function(){
 
 setTimeout(() => {
   document.getElementById("pic1").src = "man.png";
-}, 1000);
+}, 2000);
 
