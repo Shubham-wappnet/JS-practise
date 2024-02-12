@@ -35,11 +35,21 @@
             <input type="submit" id="sub1" value="Submit">
         </form>
     </div>
-    <img src="john.png" id="pic1" alt="john" height="120" width="150">
 
+    <img src="john.png" id="pic1" alt="john" height="120" width="150">
+    <div>
+        <p id="p02"></p>
+        <button onclick="getLocation()">Check location</button>
+    </div>
+    <div>
+        <input type="number" id="t01" min="100" max="500" placeholder="no." required> 
+        <button  onclick="range()">OK</button>
+        <p id="p03"></p>
+    </div>
 
     <script src="dom-events.js"></script>
     <script src="error-handling.js"></script>
+    <script src="web-api.js"></script>
 </body>
 
 </html>
